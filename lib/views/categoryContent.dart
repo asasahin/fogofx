@@ -25,6 +25,8 @@ class _CategoryContentState extends State<CategoryContent> {
 
     CustomNavigationBar.currentindex = 1;
 
+    String text;
+
     return Scaffold(
       bottomNavigationBar: CustomNavigationBar(),
       appBar: AppBar(
